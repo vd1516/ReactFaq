@@ -15,7 +15,6 @@ function App() {
       let finalTodoList = [...toDoList, toDoName]
       setTodoList(finalTodoList)
       console.log(finalTodoList)
-      console.log("Done")
     }
 
     event.preventDefault()
